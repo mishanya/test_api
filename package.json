@@ -1,0 +1,38 @@
+{
+  "name": "tango_users",
+  "version": "1.0.0",
+  "description": "nodejs API server + sequelize models for users",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3022 NODE_ENV=development nodemon   index.js"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules",
+      "assets/*",
+      "src/*",
+      "public/*"
+    ],
+    "delay": "2500"
+  },
+  "keywords": [
+    "nodejs",
+    "sequelize",
+    "postgres"
+  ],
+  "author": "mishanya",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.0.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "node-fetch": "^2.3.0",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.9",
+    "pg": "^7.8.0",
+    "sequelize": "^4.42.0"
+  }
+}

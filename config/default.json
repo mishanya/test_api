@@ -1,0 +1,9 @@
+{
+  "origin": "http://localhost:5000",
+  "domain": "localhost",
+  "twitter_key": "",
+  "instagramToken": "1437973106.0155d8f.320520f718294ba8b670c8d09bf6cbbc",
+
+  "VKKey": "d7783cffd7783cffd7783cff20d7104effdd778d7783cff8b2efd69f7770ae22e887574",
+  "jwtPrivateKey": "bankingon"
+}
